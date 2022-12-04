@@ -251,6 +251,9 @@ main a:visited {
 	margin-bottom: 12px;
 }
 
+.big-cell {
+	background-color: aquamarine;
+}
 /*** footer styles ***/
 
 footer {
