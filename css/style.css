@@ -144,6 +144,23 @@ nav ul li:link:first-child a {
 	color: #222222;
 }
 
+nav form {
+	width:100%;
+	display: flex;
+}
+
+nav form input {
+	padding: 5px;
+	width: 100%	;
+}
+
+nav form button {
+	color: #c78b07;
+	border-radius: 0%;
+	border-color: #c78b07;
+	background-color: #222222;
+}
+
 /** welcome banner **/
 
 header .header-banner {
@@ -233,6 +250,11 @@ main a:visited {
 	background-color: #ffe6ac;
 }
 
+.bio img {
+	width: 100%;
+	height: auto;
+}
+
 .bio h4 {
 	border-bottom: #c78b07 solid 2px;
 	margin: 14px;
@@ -246,24 +268,80 @@ main a:visited {
 
 /** contact styles **/
 
-.main-contact-block input {
+
+
+.main-contact-block h3 {
+	margin-bottom: 28px;
+}
+
+.main-contact-block input, textarea {
 	margin-top: 14px;
-	margin-bottom: 12px;
+	margin-bottom: 10px;
+	margin-right: 28px;
+	width: 100%;
+}
+
+form input[type=submit] {
+	width: auto;
+	color: #c78b07;
+	background-color: #222222;
+	border: 1px solid #c78b07;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.main-contact-block table {
+	width: 100%;
+}
+
+.main-contact-block th {
+	background-color:#ffe6ac;
+	padding: 14px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+.main-contact-block td {
+	padding: 14px;
+	border: 1px solid black;
+}
+
+
+.main-contact-block .big-cell {
+	display: flex;
+	width: 66%;
 }
 
 .big-cell {
 	background-color: aquamarine;
 }
+
 /*** footer styles ***/
 
 footer {
 	background-color: #222222;
 }
 
+footer p {
+	color: #c78b07;
+	margin-top: 21px;
+}
+
+footer p a:link,
+footer p a:visited {
+	color: #c78b07;
+	font-size: 14px;
+	text-decoration: underline;
+	padding: 0px;
+	margin: 0px;
+}
+
 /**** Desktop Styles ****/
 
 @media only screen and (min-width: 1168px) {
 	.container {
-		
+		background-color: red;
 	}
   }
