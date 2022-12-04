@@ -47,6 +47,220 @@ table {
 	border-spacing: 0;
 }
 
-body {
-    background-color: aqua;
+/*** general styles ***/
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px; /* this is 1 em */
+	line-height: 1.5;
+	font-weight: 400;
+	color: #000000;
+	border: 0;
 }
+
+h1 {
+	font-weight: 700;
+	font-size: 71px;
+	line-height: 106px;
+	color: white;
+	margin-bottom: 18px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 1.5;
+	margin-bottom: 12px;
+}
+
+h3 {
+	margin: 28px auto 0px 14px;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+p {
+	margin-bottom: 14px;
+}
+
+a:link,
+a:visited {
+	font-size: 1.5em;
+	font-weight: 500;
+	text-decoration: none;
+	padding: 1.5em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	padding: 14px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/*** header styles ***/
+
+header {
+	background-color: #222222;
+}
+
+/** nav **/
+
+nav .container {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+#color-block {
+    background-color: #c78b07;
+	width: 100%;
+	padding-top: 20px;
+}
+
+nav a:link,
+nav a:visited {
+	color: #c78b07;
+	display: block;
+	text-align: center;
+	padding: 17px 0;
+	margin: 0px auto;
+}
+
+nav ul li:first-child a,
+nav ul li:link:first-child a {
+	background-color: #c78b07;
+	color: #222222;
+}
+
+/** welcome banner **/
+
+header .header-banner {
+	background-image: url("../images/main-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 68px 0px;
+}
+
+header p {
+	font-size: 1em;
+	line-height: 1.5em;
+	color: white;
+	margin-bottom: 42px;
+}
+
+.header-banner .container {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 14px 0px;
+	padding: 50px 14px;
+}
+
+.header-banner a:link,
+.header-banner a:visited {
+	background-color: #c78b07;
+	color: #222222;
+}
+
+/*** main styles ***/
+
+main a:link,
+main a:visited {
+	background-color: #222222;
+	color: white;
+	margin: 0px auto 14px 14px;
+}
+
+/** services styles **/
+
+.main-services-block {
+	background-color: #ffe6ac;
+	margin-top: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-services-block p {
+	margin: 1em;
+	font-size: 1em;
+}
+
+/** about styles **/
+
+.main-about{
+	background-color: #ffe6ac;
+}
+
+/** vision styles **/
+
+.main-vision .container {
+	background-image: url("../images/vision.jpg");
+	background-position: center;
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 14px 0px;
+}
+
+.main-vision h3 {
+	color: white;
+}
+
+.main-vision p {
+	color: white;
+	margin: 28px auto 14px 14px
+}
+
+.main-vision a:link,
+.main-vision a:visited {
+	background-image: linear-gradient(to right, #0e1728, #17304d);
+	border: #c78b07 1px solid;
+}
+
+/** team styles **/
+
+
+.bio {
+	background-color: #ffe6ac;
+}
+
+.bio h4 {
+	border-bottom: #c78b07 solid 2px;
+	margin: 14px;
+	padding-bottom: 7px;
+}
+
+.bio p {
+	margin-left: 14px;
+	padding-bottom: 28px;
+}
+
+/** contact styles **/
+
+.main-contact-block input {
+	margin-top: 14px;
+	margin-bottom: 12px;
+}
+
+/*** footer styles ***/
+
+footer {
+	background-color: #222222;
+}
+
+/**** Desktop Styles ****/
+
+@media only screen and (min-width: 1168px) {
+	.container {
+		
+	}
+  }

@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Star Media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -13,16 +16,18 @@
     <header>
         <nav>
             <div class="container">
-                <img src="images/logo.png" alt="Logo">
+                <div id="color-block">
+                    <img src="images/logo.png">
+                </div>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <form>
-                    <input type="search">
+                    <input type="search" placeholder="Search">
                     <button>&#128269;</button>
                 </form>
             </div> <!-- end nav container -->
@@ -30,99 +35,126 @@
         <div class="header-banner">
             <div class="container">
                 <h1>Welcome to Three Star Media</h1>
-                <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
                 </p>
-                <button>Connect With us &#9656; </button>
-                <!-- Welcome h1 paragraph button -->
+                <a href="#" class="button">Connect with us &#9656;</a>
             </div> <!-- end header-banner container -->
-        </div>s
+        </div>
     </header>
     
     <main>
-        
-        <section class="main-about">
+        <section class="main-about" id="about">
             <div class="container">
-                <div> 
-                    <img src="images/about-us.jpg"> 
-                </div>
                 <div>
+                    <img src="images/about-us.jpg">
                     <h2>About Us</h2>
-                    <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi guidem, non perferendis vel sed facilis rerum cum in exercitationem?</p>
                 </div>
             </div> <!-- end main-about container-->
         </section>
-        <section class="main-services">
+        <section class="main-services" id="services">
             <div class="container">
                 <h2>Our Services</h2>
                 <div class="main-services-block serice-block-1">
                     <img src="images/digital.jpg">
                     <h3>Digital Transformation</h3>
-                    <p>lorems</p>
-                    <button>Digital Plans&#9656;</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
+                    </p>
+                    <a href="#">Digital Plans&#9656;</a>
                 </div> <!-- end main services block 1 -->
                 <div class="main-services-block service-block-2">
                     <img src="images/marketing.jpg">
                     <h3>Marketing</h3>
-                    <p>lorems</p>
-                    <button>Marketing Plans&#9656;</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <a href="#">Marketing Plans&#9656;</a>
                 </div> <!-- end main services block 2 -->
                 <div class="main-services-block service-block-3">
                     <img src="images/video.jpg">
                     <h3>Video Production</h3>
-                    <p>lorems</p>
-                    <button>Video Plans&#9656;</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <a href="#">Video Plans&#9656;</a>
                 </div> <!-- end main services block 3 -->
                 <div class="main-services-block service-block-4">
                     <img src="images/web.jpg">
                     <h3>Web Development</h3>
-                    <p>lorems</p>
-                    <button>Web Plans&#9656;</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <a href="#">Web Plans&#9656;</a>
                 </div> <!-- end main services block 4 -->
                 <div class="main-services-block service-block-5">
                     <img src="images/print.jpg">
                     <h3>Print</h3>
-                    <p>lorems</p>
-                    <button>Print Plans&#9656;</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <a href="#">Print Plans&#9656;</a>
                 </div> <!-- end main services block 5 -->
             </div> <!-- end main-services container-->
         </section>
         <section class="main-vision">
             <div class="container">
                 <h3>Our Vision</h3>
-                <p>lorems</p>
-                <button>Learn More&#9656;</button>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
+                <a href="#">Learn More&#9656;</a>
             </div> <!-- end main-vision container -->
         </section>
-        <section class="main-team">
+        <section class="main-team" id="team">
             <div class="container">
+                <h2 id="team">Our Team</h2>
                 <div class="main-team-block team-block-1">
-                    <img src="images/john.jpg" alt="photo of John">
-                    <div>
+                    <div class="bio">
+                        <img src="images/john.jpg" alt="photo of John">
                         <h3>John Doe</h3>
                         <h4>CEO and Co-owner</h4>
-                        <p>lorem</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
                     </div>
                 </div> <!-- end main-team-block-1 -->
                 <div class="main-team-block team-block-2">
-                    <img src="images/bob.jpg" alt="photo of Bob">
-                    <div>
-                        <h3>bob Rite</h3>
+                    <div class="bio">
+                        <img src="images/bob.jpg" alt="photo of Bob">
+                        <h3>Bob Rite</h3>
                         <h4>CFO and Co-owner</h4>
-                        <p>lorem</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.</p>
                     </div>
                 </div> <!-- end main-team-block-2 -->
             </div> <!-- end main-team container -->
         </section>
-        <section class="main-contact">
+        <section class="main-contact" id="contact">
             <div class="container">
                 <div class="main-contact-block contact-block-1">
-                
+                    <h2>Contact Us</h2>
+                    <form>
+                        <h3>Send us a message</h3>
+                        <label for="fullname">Full name</label><br>
+                        <input type="text" id="fullname" name="fullname"><br>
+                        
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email"><br>
+
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+
+                        <input type="submit" value="Send">
+                    </form>
                 </div> <!-- end main-team-block-1 -->
                 <div class="main-contact-block contact-block-2">
-                
+                    <table>
+                        <h2>Hours of operation</h2>
+                        <tr>
+                            <th colspan="2">days</th>
+                            <th>hours</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Monday-Friday</td>
+                            <td>9 AM - 6 PM</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Saturday - Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </table>
                 </div> <!-- end main-team-block-2 -->
                 <div class="main-contact-block contact-block-3">
-                
+                    <h2>Location</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1435386.436928966!2d-77.51399305542192!3d45.35912382823269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669478029063!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div> <!-- end main-team-block-3 -->
             </div> <!-- end main-contact container -->
         </section>
