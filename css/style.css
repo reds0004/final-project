@@ -347,7 +347,171 @@ footer p a:visited {
 /**** Desktop Styles ****/
 
 @media only screen and (min-width: 1168px) {
+	/*** general styles ***/
+
 	.container {
-		background-color: red;
+		padding: 14px 135px;
 	}
-  }
+
+	/*** header styles ***/
+
+	header {
+		background-color: #222222;
+	}
+
+	/** nav **/
+
+	nav .container {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+
+	#color-block {
+		background-color: #c78b07;
+		width: auto;
+		padding-top: 0px;
+	}
+
+
+	nav form {
+		width:auto;
+		display: flex;
+	}
+	
+	nav form input {
+		padding: 5px;
+		width: auto;
+	}
+	
+	nav ul {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-evenly;
+	}
+
+	nav a:link,
+	nav a:visited {
+		color: #c78b07;
+		display: block;
+		text-align: center;
+		padding: 17px 0;
+		margin: 0px auto;
+	}
+
+	nav ul li:first-child a,
+	nav ul li:link:first-child a {
+		background-color: #c78b07;
+		color: #222222;
+	}
+
+	nav form {
+		width:100%;
+		display: flex;
+	}
+
+	nav form input {
+		padding: 5px;
+		width: 100%	;
+		font-size: 1.5em;
+	}
+
+	nav form button {
+		color: #c78b07;
+		border-radius: 0%;
+		border-color: #c78b07;
+		background-color: #222222;
+		width: 3em;
+	}
+
+	/** welcome banner **/
+
+	header .header-banner {
+		background-image: url("../images/main-banner.jpg");
+		background-size: cover;
+		background-position: center;
+		display: flex;
+		padding: 68px 136px;
+	}
+
+	.header-banner .container {
+		margin: 14px 0px;
+		padding: 50px 14px;
+	}
+
+	.main-about .container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.about-content {
+		max-width: calc(50% - 14px);
+		margin-left: 14px;
+		margin-right: 14px;
+	}
+
+	/*** main styles ***/
+
+	.main-services-block {
+		display: block;
+		width: 300;
+		height: auto;
+	}
+
+	.main-services .container h2 {
+		grid-column-start: 1;
+		grid-column-end: 7;
+	}
+
+	.service-block-1 {
+		grid-column-start: 1;
+		grid-column-end: 4;
+	}
+
+	.service-block-2 {
+		grid-column-start: 4;
+		grid-column-end: 7;
+	}
+
+	.service-block-3 {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.service-block-4 {
+		grid-column-start: 3;
+		grid-column-end: 5;
+	}
+
+	.service-block-5 {
+		grid-column-start: 5;
+		grid-column-end: 7;
+	}
+
+	.main-services .container {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+		/*grid-template:
+		'head head head head head head'
+		'digital digital digital marketing marketing marketing'
+		'video video web web print print';*/
+		column-gap: 14px;
+	}
+
+	.main-services-block {
+		display: flex;
+		width: auto;
+		height: auto;
+	}
+
+	.main-vision .container {
+		background-size: cover;
+		padding: 14px 122px;
+	}
+
+	.main-vision .container p {
+		width: 100%;
+		margin-right: 14px;
+		margin-left: 14px;
+	}
+}
