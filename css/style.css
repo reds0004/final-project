@@ -299,6 +299,7 @@ form input[type=submit] {
 
 .main-contact-block table {
 	width: 100%;
+	border-collapse: collapse;
 }
 
 .main-contact-block th {
@@ -320,8 +321,14 @@ form input[type=submit] {
 	width: 66%;
 }
 
-.big-cell {
-	background-color: aquamarine;
+iframe {
+		width: 100%;
+		height: 100%;
+	}
+
+.map {
+	height: auto;
+	height: 450px;
 }
 
 /*** footer styles ***/
@@ -346,7 +353,7 @@ footer p a:visited {
 
 /**** Desktop Styles ****/
 
-@media only screen and (min-width: 1168px) {
+@media only screen and (min-width: 1200px) {
 	/*** general styles ***/
 
 	.container {
@@ -453,7 +460,7 @@ footer p a:visited {
 
 	.main-services-block {
 		display: block;
-		width: 300;
+		width: 300px;
 		height: auto;
 	}
 
@@ -566,13 +573,14 @@ footer p a:visited {
 		grid-area: location;
 	}
 	
-	.table { 
-		width: 100%;
+	table { 
+		width: 100%; 
+		border: 1px solid black;
 	}
 
 	.map {
-		width: 100%;
-		height: 100%;
-
+		overflow: hidden;
 	}
+
+	
 }
